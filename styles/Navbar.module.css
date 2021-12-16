@@ -1,0 +1,91 @@
+.container{
+ height: 100px;
+ padding: 0px 50px;
+ background-color: green;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ position: sticky;
+ top: 0;
+ color: white;
+ font-size: 20px;
+ z-index: 999;
+}
+
+.item{
+ flex:1;
+ display: flex;
+ align-items: center;
+}
+
+.item:nth-child(2){
+ justify-content:space-around;
+ flex:3;
+}
+
+.item:nth-child(3){
+ justify-content:flex-end;
+ flex:1;
+}
+
+.callButton{
+ margin-right: 30px;
+
+}
+
+.texts{
+
+ color: white;
+ cursor: pointer;
+}
+
+.text:first-child{
+ font-size: 22px;
+ font-weight: 300;
+}
+
+.text:last-child{
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.list{
+ padding: 0;
+ display: flex;
+ align-items: center;
+ list-style: none;
+ color: white;
+}
+
+.listItem{
+ margin-left: 100px;
+ margin-right: 100px;
+ font-weight: 500;
+ cursor: pointer;
+}
+
+.logo{
+ background-color: white;
+ padding: 10px;
+ border-radius: 40px;
+
+ margin-left: 100px;
+ margin-right: 100px;
+}
+
+.cart{
+
+display: flex;
+cursor: pointer;
+}
+
+.counter{
+
+
+ width: 25px;
+ height: 25px;
+ border-radius: 50%;
+ background-color: black;
+ text-align: center;
+ margin-left: 1px;
+}
