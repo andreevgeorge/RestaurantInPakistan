@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
    
   <Layout>
          <Head>
-        <title>My restaurant in Chicago</title>
+        <title>My restaurant in Islamabad</title>
         <meta name="description" content="Delicious desi food" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://app.snipcart.com" />
